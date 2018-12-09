@@ -1,0 +1,144 @@
+/* Overall page control */
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: url('../../assets/images/round.png');
+        margin: 0;
+        color: #777777
+    }
+
+    h1, h2, h3, h4 {
+        font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    }
+
+    p {
+        line-height: 150%;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+
+    .main-content {
+        background: white;
+        border-color: #dddddd;
+        border-width: 1px;
+        border-style: solid;
+        max-width: 960px;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 25px;
+    }
+    
+    .Turquoise-Heading {
+        color: #4aaaa5
+    }
+    
+    .dividing-line {
+        background-color: #cccccc;
+        height: 2px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+/* Header Styling */
+
+    header {
+        background-color: white;
+        border-color: #cccccc;
+        border-width: 0px;
+        border-bottom-width: 2px;
+        border-style: solid;
+        padding: 0;
+        margin: 0;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+    .bounding-box {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    #header-name {
+        color: white;
+        background-color: #4aaaa5;
+        padding: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        float: left;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .menu-divider {
+        width: 1px;
+        height: 18px;
+        margin: 14px 16px;
+        background-color: #777777
+    }
+
+    nav {
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        padding-top: 48px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav li {
+    float: right;
+    }
+
+    nav li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    nav li a:hover {
+    background-color: #cccccc;
+    color: white;
+    }
+
+/* Footer */
+
+    .turq {
+        background-color: #4aaaa5;
+        height: 8px;
+        margin: 0%;
+        width: 100%;
+    }
+
+    .grey {
+        background-color: #666666;
+        width: 100%;
+        height: 50px;
+        margin: 0;
+    }
+
+    footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    }
+      

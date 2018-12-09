@@ -1,0 +1,18 @@
+.submit {
+    background-color: #4aaaa5;
+    padding: 10px 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 0;
+    float: left;
+    border-radius: 10px;
+    border-color: none;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
